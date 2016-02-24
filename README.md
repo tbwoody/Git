@@ -1,14 +1,11 @@
-# Git
-Git使用指南
+# Git使用指南
 
-配置Git
+##配置Git
 
      git config --global user.name "qiwei0727"  
      git config --global user.email "qiwei0727@163.com"
      
-     
-     
-创建新仓库
+##创建新仓库
 
      cd d:  //跳转到d盘  
      mkdir Git  //创建一个文件夹  
@@ -16,11 +13,11 @@ Git使用指南
      git init   
      git status : 查看仓库状态
 
-克隆远端仓库
+##克隆远端仓库
 
-git clone https://github.com/qiwei0727/Git.git
+     git clone https://github.com/qiwei0727/Git.git
 
-本地操作原理
+##本地操作原理
 
 你的本地仓库由 git 维护的三棵“树”组成。
 
@@ -29,22 +26,23 @@ git clone https://github.com/qiwei0727/Git.git
 最后是 HEAD，它指向你最后一次提交的结果。
 这里写图片描述
 
-添加并提交
+##添加并提交
 
- git add .//把它们添加到暂存区
- git add <filename>
+     git add .//把它们添加到暂存区
+     git add <filename>
 
-这是 git 基本工作流程的第一步；使用如下命令以实际提交改动：
+这是 git 基本工作流程的第一步；
+###使用如下命令以实际提交改动：
 
-git commit -m "代码提交信息"  
-git log //查看提交历史
+     git commit -m "代码提交信息"  
+     git log //查看提交历史
 
 现在，你的改动已经提交到了 HEAD，但是还没到你的远端仓库。
 
-这个命令会把之前所有的已经添加的文件都加入到这个版本中。
+###这个命令会把之前所有的已经添加的文件都加入到这个版本中。
 
     git commit -a -m "代码提交信息"
-推送到远端仓库
+##推送到远端仓库
 
 你的改动现在已经在本地仓库的 HEAD 中了。
 
@@ -60,7 +58,7 @@ git log //查看提交历史
 
     git remote add origin https://github.com/tugenhua0707/testgit 
 
-push-username 
-push-password
+     push-username 
+     push-password
 
 如此你就能够将你的改动推送到所添加的服务器上去了。
