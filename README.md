@@ -64,4 +64,17 @@
 
 如此你就能够将你的改动推送到所添加的服务器上去了。
 
+
+##删除文件或文件夹
+
+1. git pull 
+2. git checkout 
+3. rm -r 文件或文件平
+4. git add .
+5. git commit -m"remove dir"
+6. git push origin master
+
+
+
+
 [参考](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
