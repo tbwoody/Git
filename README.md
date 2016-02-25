@@ -10,7 +10,7 @@
      cd d:  //跳转到d盘  
      mkdir Git  //创建一个文件夹  
      cd Git    
-     git init   
+     git init   //初始化一个Git仓库
      git status : 查看仓库状态
 
 ##克隆远端仓库
@@ -38,6 +38,10 @@
 
 现在，你的改动已经提交到了 HEAD，但是还没到你的远端仓库。
 
+要随时掌握工作区的状态，使用git status命令。
+
+如果git status告诉你有文件被修改过，用git diff可以查看修改内容
+
 ###这个命令会把之前所有的已经添加的文件都加入到这个版本中。
 
     git commit -a -m "代码提交信息"
@@ -57,7 +61,7 @@
 
     git remote add origin https://github.com/tugenhua0707/testgit 
 
-     push-username 
-     push-password
 
 如此你就能够将你的改动推送到所添加的服务器上去了。
+
+[参考](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
