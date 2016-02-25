@@ -67,14 +67,18 @@
 
 ##删除文件或文件夹
 
-1. git pull 
-2. git checkout 
-3. rm -r 文件或文件平
-4. git add .
-5. git commit -m"remove dir"
-6. git push origin master
+- git pull 
+- git checkout 
+- rm -r 文件或文件平
+- git add .
+- git commit -m "remove dir"
+- git push origin master
 
+##版本回退
 
+- HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令git reset --hard commit_id。
+- 穿梭前，用git log可以查看提交历史，以便确定要回退到哪个版本。
+- 要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本。
 
 
 [参考](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
