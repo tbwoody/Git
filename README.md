@@ -1,11 +1,11 @@
 # Git使用指南
 
-##配置Git
+## 配置Git
 
      git config --global user.name "qiwei0727"  
      git config --global user.email "qiwei0727@163.com"
      
-##创建新仓库
+## 创建新仓库
 
      cd d:  //跳转到d盘  
      mkdir Git  //创建一个文件夹  
@@ -13,11 +13,11 @@
      git init   //初始化一个Git仓库
      git status : 查看仓库状态
 
-##克隆远端仓库
+## 克隆远端仓库
 
      git clone https://github.com/qiwei0727/Git.git
 
-##本地操作原理
+## 本地操作原理
 
 你的本地仓库由 git 维护的三棵“树”组成。
 
@@ -25,13 +25,13 @@
 2. 第二个是 暂存区（Index），它像个缓存区域，临时保存你的改动；
 3. 最后是 HEAD，它指向你最后一次提交的结果。
 
-##添加并提交
+## 添加并提交
 
      git add .//把它们添加到暂存区
      git add <filename>
 
 这是 git 基本工作流程的第一步；
-###使用如下命令以实际提交改动：
+### 使用如下命令以实际提交改动：
 
      git commit -m "代码提交信息"  
      git log //查看提交历史
