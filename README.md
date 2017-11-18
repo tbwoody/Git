@@ -151,7 +151,7 @@ git branch
 
 > https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
-> 详情：https://github.com/francistao/LearningNotes/blob/master/Part1/Android/Git%E6%93%8D%E4%BD%9C.md
+> https://github.com/francistao/LearningNotes/blob/master/Part1/Android/Git%E6%93%8D%E4%BD%9C.md
 
 > https://git-scm.com/blog
 
