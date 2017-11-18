@@ -15,8 +15,8 @@
 
 ### 配置Git
 ```
-     git config --global user.name "qiwei0727"  
-     git config --global user.email "qiwei0727@163.com"
+git config --global user.name "qiwei0727"  
+git config --global user.email "qiwei0727@163.com"
 ```  
 ### 创建新仓库
 ```
@@ -64,17 +64,17 @@ git log
 你的改动现在已经在本地仓库的 HEAD 中了。
 
 执行如下命令以将这些改动提交到远端仓库：
-
-    git push -u origin master//第一次用这个
-    git push origin master
-
+```
+git push -u origin master//第一次用这个
+git push origin master
+```
 可以把 master 换成你想要推送的任何分支。
 
 如果你还没有克隆现有仓库，并欲将你的仓库连接到某个远程服务器（关联一个远程库）， 
 你可以使用如下命令添加：
-
-    git remote add origin https://github.com/tugenhua0707/testgit 
-
+```
+git remote add origin https://github.com/tugenhua0707/testgit 
+```
 
 如此你就能够将你的改动推送到所添加的服务器上去了。
 
@@ -83,6 +83,7 @@ git log
 - HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令git reset --hard commit_id。
 - 穿梭前，用git log可以查看提交历史，以便确定要回退到哪个版本。
 - 要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本。
+
 
 ```
 //Git允许我们在版本的历史之间穿梭
@@ -141,13 +142,13 @@ git branch -d dev
 git branch
 ```
 
-**Android Studio中合并分支操作:**
+#### Android Studio中合并分支操作
 
 - 当前分支切换到主分支，然后进行合并
 - VCS-> Git-> Merge Branches
 
 
-## 参考
+### 参考
 
 > https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
